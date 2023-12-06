@@ -49,7 +49,9 @@ const NavBar = () => {
                 <a href="https://www.facebook.com/nafiz.sizan" target='blank'><img src={navIcon2} alt="Facebook"/></a>
                 <a href="https://www.instagram.com/nafiz_sizan/" target='blank'><img src={navIcon3} alt="Instagram"/></a>
             </div>
+            <Nav.Link href="#connect">
             <button className={activeLink=='contact'?'active-navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('contact')}><span>Let's Connect</span></button>
+            </Nav.Link>
           </span>
         </Navbar.Collapse>
       </Container>
